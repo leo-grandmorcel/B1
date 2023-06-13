@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./style.css">
+<link rel="icon" type="image/x-icon" href="images/favicon.jpg">
+</head>
+<body>
+<div class="banderoleHorizontale">
+    <div class="button"></div>
+    <img src="images/logo-cdv.png" class="titre">
+    <p class="Boutique" onclick="redirect2()">Boutique en ligne</p>
+    <img src="./images/boutique.png" class="boutiqueImage" onclick="redirect2()">
+</div>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="./images/actu1.jpg">
+  <div class="text">Actualité 1</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="./images/actu2.jpg">
+  <div class="text">Actualité 2</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="./images/actu3.jpg">
+  <div class="text">Actualité 3</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<div id="overlay" onclick="off()">
+  <div id="overlaytext"><br><br>Carte de consommation<br> de vin dans le monde</div>
+  <img id="overlayimg" src="images/map vin.png">
+</div>
+<div class="button-container">
+  <button class="button2" onclick="on()">Carte du vin </button>
+  <button class="button2" onclick="redirect()">Accéder à l'espace culture</button>
+</div>
+<div class="bottom">
+  <p class="bottomtext">Mentions légales</p>
+</div>
+
+<script src="script.js"></script>
+    <!-- <ul>
+        {{ range .Donnees }}
+            <li>{{ .Title }}</li>
+        {{ end }}
+        </ul> -->
+</body>
+</html> 
